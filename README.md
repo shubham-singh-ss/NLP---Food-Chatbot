@@ -9,4 +9,4 @@ To deploy the project
 5. After that, run <strong>make train-core</strong>
 6. Now, run <strong>make action-server</strong>
 7. Now open a new terminal window, and type ngrok http 5002, and copy forwarding link
-8. Paste that link in endpoints.yml. as -> url = "<forwarding link>/webhook"
+8. Paste that link in endpoints.yml. as -> url = "forwarding link/webhook"
